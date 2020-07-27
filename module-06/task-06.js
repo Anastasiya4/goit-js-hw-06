@@ -3,7 +3,7 @@
 import users from './users.js';
 
 const getUsersWithAge = (users, min, max) => {
-    const user = users.filter(user => user.age >= min & user.age <= max);
+    const user = users.filter(user => user.age >= min && user.age <= max);
     return user;
   };
   
